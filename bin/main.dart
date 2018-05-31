@@ -21,62 +21,21 @@ main(List<String> arguments) { //entry point for execution
       Equality and relational =  ==, !=, <, >, >= , <=
       as, is and is!
 
+      Statement
+
+      if(){
+
+      }
      */
 
-//      String name = "Adrian";
-//      String apellidoPaterno = "Tapia";
-//      int rut = 18604258;
-//      int dv = 1;
-//
-//      print("El nombre es $name $apellidoPaterno y su rut es $rut - $dv");
-//      print("Buena $name ${apellidoPaterno.toUpperCase()}");
-//      print("Buena $name ${apellidoPaterno.toLowerCase()}");
-//
-//      print("Operadores");
-//
-//      int number = 24;
-//      int numberTwo = 2;
-//      var result = number + numberTwo;
-//      double pi = 3.14;
-//      double gravity = 2.10;
-//
-//      print(number + numberTwo);
-//      print("El resultado es: $result");
-//      print(pi - gravity);
-//      print(4%2);
+    int number = 34;
 
-//      print("Igualdad y relaciones");
-//      print("---------------------");
-//
-//      int number = 24;
-//      int numberTwo = 24;
-//
-//      print(number <= numberTwo) ;
+    if(number > 34) {
+      print("Hola 34");
+    }else {
+      print("Hola 36");
+    }
 
-  int number = 34;
-  int numberTwo = 35;
-
-  print(number is! bool);
-
-//  bool isTrue = true;
-//  bool isFalse = false;
-//
-//  print(isFalse);
-
-  /*var country ;
-  country = 23;
-  country = "Chile";
-
-  print(country);
-
-  String name;
-  name = "Adrian Tapia";
-
-  print('Hello world');
-  print(name);
-
-  int age = 24;
-  double number = 23.5;
-  print(number);*/
-
+    if (number < 39) print("Chao");
+    else print("Adios");
 }
