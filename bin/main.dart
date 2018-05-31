@@ -19,6 +19,8 @@ main(List<String> arguments) { //entry point for execution
 
       Concatenation = use $
       Equality and relational =  ==, !=, <, >, >= , <=
+      as, is and is!
+
      */
 
 //      String name = "Adrian";
@@ -43,13 +45,18 @@ main(List<String> arguments) { //entry point for execution
 //      print(pi - gravity);
 //      print(4%2);
 
-      print("Igualdad y relaciones");
-      print("---------------------");
+//      print("Igualdad y relaciones");
+//      print("---------------------");
+//
+//      int number = 24;
+//      int numberTwo = 24;
+//
+//      print(number <= numberTwo) ;
 
-      int number = 24;
-      int numberTwo = 24;
+  int number = 34;
+  int numberTwo = 35;
 
-      print(number <= numberTwo) ;
+  print(number is! bool);
 
 //  bool isTrue = true;
 //  bool isFalse = false;
