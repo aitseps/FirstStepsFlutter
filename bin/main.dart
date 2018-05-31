@@ -25,15 +25,61 @@ main(List<String> arguments) {
       Statement
 
       if(){
-
+      }else {
       }
+
+
      */
 
-  int number = 100;
+  // Loop For
 
-  if ( (number == 35) || number >= 50) {
-    print("Hola que tal");
-  } else {
-    print("Siiii");
+//  var fruta = "Manzana";
+//
+//  for(var i = 0; i < 10 ; i++) {
+//    if (i % 3 == 0) {
+//      print("Hola $fruta numero : $i");
+//    }
+//  }
+
+  // Loop While - Do-while and Break
+
+//  while(true){
+//    print("Roberto");
+//  }
+//  var number = 34;
+//  do {
+//    print("Hello World");
+//  }while( number < 34);
+
+
+  // Switch Case
+
+//  var age = 18;
+//
+//  if(age == 18) {
+//    print("Tienes 18 años");
+//  }else if (age == 19) {
+//    print("Tienes 19 años");
+//  }else if (age == 20);{
+//    print("Tienes 20 años");
+//  }
+
+  var age = 19;
+
+  switch(age){
+    case 19:
+      print("Old enough");
+      break;
+    case 20:
+      print("Hola de nuevo, soy 20");
+      break;
+    case 89:
+      print("Tengo 89");
   }
-}
+
+
+  
+  }
+
+
+
