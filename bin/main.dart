@@ -1,11 +1,12 @@
 
 
-main(List<String> arguments) { //entry point for execution
+main(List<String> arguments) {
+  //entry point for execution
 
   // Variable = spot in memory. Or just a bucket to hold a value.
 
   //Type of variable??
-    /*
+  /*
       String
       Number (integers and doubles)
       Boolean - 1 or 0 , true or false
@@ -28,14 +29,11 @@ main(List<String> arguments) { //entry point for execution
       }
      */
 
-    int number = 34;
+  int number = 100;
 
-    if(number > 34) {
-      print("Hola 34");
-    }else {
-      print("Hola 36");
-    }
-
-    if (number < 39) print("Chao");
-    else print("Adios");
+  if ( (number == 35) || number >= 50) {
+    print("Hola que tal");
+  } else {
+    print("Siiii");
+  }
 }
